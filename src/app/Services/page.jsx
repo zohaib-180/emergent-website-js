@@ -33,7 +33,7 @@ const services = [
   },
   {
     title: "Multimedia Designs & Animations",
-    video: "/assets/videos/animations.mp4",
+    video: "/assets/videos/animations.gif",
     description:
       "Engaging and efficient web design and development solutions. Transcending convention through innovative web solutions.",
   },
