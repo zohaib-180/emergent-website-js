@@ -33,15 +33,15 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!captcha) {
-      setStatusMessage("Please complete the CAPTCHA");
-      return;
-    }
+    // if (!captcha) {
+    //   setStatusMessage("Please complete the CAPTCHA");
+    //   return;
+    // }
 
-    const response = await fetch("/api/verify-captcha", {
-      method: "POST",
-      body: JSON.stringify({ captcha }),
-    });
+    // const response = await fetch("/api/verify-captcha", {
+    //   method: "POST",
+    //   body: JSON.stringify({ captcha }),
+    // });
 
     const data = await response.json();
 
