@@ -379,7 +379,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div
+            {/* <div
               className="g-recaptcha mt-4"
               data-sitekey="your-site-key-here"
               onChange={(value) => setCaptcha(value)}
@@ -387,7 +387,7 @@ export default function Contact() {
 
             {statusMessage && (
               <p className="mt-4 text-red-600">{statusMessage}</p>
-            )}
+            )} */}
 
             {/* Add reCAPTCHA */}
             <div className="mb-3">
