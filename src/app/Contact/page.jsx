@@ -85,7 +85,7 @@ export default function Contact() {
         setStatusMessage("Failed to send email.");
       }
     } else {
-      setStatusMessage("CAPTCHA verification failed. Please try again.");
+      // setStatusMessage("CAPTCHA verification failed. Please try again.");
     }
   };
 
@@ -393,7 +393,7 @@ export default function Contact() {
             <div className="mb-3">
               <ReCAPTCHA
                 ref={(r) => setCaptchaRef(r)}
-                sitekey="6Lf2-H4bAAAAAHJ_CkUvSoElvh4HxI2fzOjrPTtC"
+                sitekey= {process.env.NEXT_PUBLIC_CAP_KEY}
                 onChange={handleRecaptcha}
                 size="normal"
               />
