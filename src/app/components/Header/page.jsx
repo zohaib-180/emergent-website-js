@@ -69,7 +69,7 @@ export default function Navbar() {
           <div className="container mx-auto flex justify-between items-center py-4 px-4">
             <Link href="/">
               <Image
-                src="/assets/images/ess-logo.svg"
+                src="/assets/images/ess-logo1.svg"
                 alt="Emergent Soft"
                 width={150}
                 height={50}
