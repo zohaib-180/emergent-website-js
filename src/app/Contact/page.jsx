@@ -20,8 +20,8 @@ export default function Contact() {
     message: "",
   });
 
-  const [captcha, setCaptcha] = useState(null);
-  const [statusMessage, setStatusMessage] = useState("");
+  // const [captcha, setCaptcha] = useState(null);
+  // const [statusMessage, setStatusMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
